@@ -1,7 +1,9 @@
-:root {
-    --primary_color : aqua;
-    --secondary_color: white;
-    }
+html, body{
+    width: 100%;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+}
 
 
 body{
@@ -20,15 +22,21 @@ body{
     background: #f7f7f7;
     box-shadow: 0 3px 5px;
     border-radius: 20px;
-    
+ 
 }
+
 #display_img{
     float: 200px;
+    display: flex;
+    justify-content: center;
 }
+
 @media(max-width: 800px){
     #container{
         display: flex;
         min-width: 100%;
         width: 100%;
         flex-direction: column;
+        justify-content: center;
     }
+}
