@@ -18,7 +18,7 @@ body{
 #container{
     height: 300px;
     width: 400px;
-    margin: 100px auto;
+    margin: auto;
     background: #f7f7f7;
     box-shadow: 0 3px 5px;
     border-radius: 20px;
