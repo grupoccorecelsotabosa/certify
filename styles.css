@@ -22,3 +22,10 @@ body{
 #display_img{
     float: 200px;
 }
+@media(max-width: 800px){
+    #container{
+        display: flex;
+        min-width: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
