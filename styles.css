@@ -29,6 +29,7 @@ body{
 
 #display_img{
     float: 200px;
+}
  
 
 @media(max-width: 800px){
