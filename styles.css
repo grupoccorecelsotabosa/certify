@@ -16,20 +16,20 @@ body{
 }
 
 #container{
-    height: 300px;
-    width: 400px;
-    margin: 150px auto;
+    height: 320px ;
+    width:  450px ;
+    margin: 200px auto;
     background: #f7f7f7;
     box-shadow: 0 3px 5px;
     border-radius: 20px;
+    justify-content: center;
+    flex-direction: column;
  
 }
 
 #display_img{
     float: 200px;
-    display: flex;
-    justify-content: center;
-}
+ 
 
 @media(max-width: 800px){
     #container{
@@ -37,31 +37,9 @@ body{
         min-width: 100%;
         height: 100%;
         width: 100%;
-        flex-direction: column;
         justify-content: center;
-    #display_img1{
-        display: flex;
-        min-width: 100%;
-        height: 100%;
-        width: 100%;
         flex-direction: column;
-        justify-content: center;
-    }
-    #display_img2{
-        display: flex;
-        min-width: 100%;
-        height: 100%;
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-    }
-#text_aloc{
-        display: flex;
-        min-width: 100%;
-        height: 100%;
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-    }
+        
+    
     }
 }
